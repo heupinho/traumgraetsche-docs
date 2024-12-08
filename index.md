@@ -1,6 +1,7 @@
 ---
-title: TRAUMGRÄTSCHE
+title: Spielidee
 layout: home
+nav_oder: 0
 ---
 # Spielidee & -ablauf
 
