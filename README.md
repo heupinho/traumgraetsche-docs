@@ -1,4 +1,4 @@
-# just-the-docs-template
+# TRAUMGRÄTSCHE rule book based on just-the-docs
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
