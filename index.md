@@ -40,7 +40,7 @@ Mitspieler ihn auch entsprechend mit Flanken füttern können.
 
 ----
 
-[Fertigkeiten]: docs/Fertigkeiten
+[Fertigkeiten]: docs/skills/skills
 [Fortbildungsseminare]: docs/Fortbildungsseminare
 [Fortbildungsseminaren]: docs/Fortbildungsseminare
 [Fußballmatch]: docs/Fussballmatch
