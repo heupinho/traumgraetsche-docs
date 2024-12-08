@@ -1,7 +1,7 @@
 ---
 title: Spielidee
 layout: home
-nav_oder: 0
+nav_order: 0
 ---
 # Spielidee & -ablauf
 
