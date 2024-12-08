@@ -1,35 +1,54 @@
 ---
-title: Home
+title: TRAUMGRÄTSCHE
 layout: home
 ---
+# Spielidee & -ablauf
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+In diesem Spiel übernimmt jeder Spieler die Rolle des **Managers eines Fußballclubs** und ist damit verantwortlich
+für Spielertransfers, das Training und natürlich das Coaching während des Matches an der Seitenlinie.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Die **[Spielerkarten]** repräsentieren die einzelnen Fußballspieler und enthalten ihre Positionen auf dem Feld, eine
+allgemeine Spielstärke und die einzelnen **[Fertigkeiten]** wie z.B. Technik, Schusskraft, Zweikampf oder Kopfball.
+Neue Spielerkarten können dabei auf dem **[Transfermarkt]** erworben werden.
 
-More specifically, the created site:
+Mit den **[Trainingskarten]** können entweder die **individuellen [Fertigkeiten] einzelner Spieler** für das anstehende
+Match verbessert oder **neue [Spielzüge] mit der Mannschaft** einstudiert werden, wodurch sich die [Trainingskarten]
+in [Torchancekarten] umwandeln. Die Auswahl seiner [Trainingskarten] kann ein Manager durch den Besuch von
+**[Fortbildungsseminaren]** gezielt optimieren.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Der Stapel der **[Torchancekarten]** besteht zunächst aus einigen **Standardspielzügen** und wird über die Zeit durch
+das oben beschriebene **Mannschaftstraining immer weiter verbessert**. Eine Torchance-Karte beschreibt die
+**[Spieler-Positionen] & -Fertigkeiten** der angreifenden und verteidigenden Mannschaft, die benötigt werden, um
+eine Chance entweder zu vereiteln oder aber ein **TOOOR!!!** zu erzielen!
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Das [Fußballmatch] selbst besteht schließlich aus **zwei Halbzeiten zu je drei Spielphasen**. In jeder Spielphase wird
+zunächst mit Hilfe der Spielzugkarten ermittelt, welches Team die **Torchance** hat. Die **Offensive** versucht dann mit
+möglichst passenden Fertigkeiten ein Tor zu erzielen, während die **Defensive** versucht das zu verhindern.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+Abgerundet wird jede Spielphase durch ein **zufälliges Ereignis** wie zum Beispiel „Abseits!“, „Konter!“,
+„Nachschuss!“ oder „Verletzung!“.
 
-To get started with creating a site, simply:
+Insgesamt ergibt sich durch die Kombination aus Managerfortbildung und Mannschaftstraining eine ```zwei-stufige
+Deck-Building-Mechanik```, bei der sich zunächst die Trainingskarten aufwerten und diese dann zur Verbesserung
+der Torchancekarten genutzt werden.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+Durch geeignete Abstimmung von Spieler- & Mannschafts-Training ergeben sich außerdem ```wirkungsvolle Karten-
+Kombos```, denn die Kopfballstärke des Star-Stürmers kommt natürlich erst dann wirklich zum Tragen, wenn seine
+Mitspieler ihn auch entsprechend mit Flanken füttern können.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+![Traumgrätsche Icon](https://github.com/user-attachments/assets/7b3ec996-0a52-4e8f-ac25-53c08395cc51)
 
 ----
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+[Fertigkeiten]: docs/Fertigkeiten
+[Fortbildungsseminare]: docs/Fortbildungsseminare
+[Fortbildungsseminaren]: docs/Fortbildungsseminare
+[Fußballmatch]: docs/Fussballmatch
+[Spielerkarten]: docs/Spielerkarte
+[Spieler-Positionen]: docs/Spielerpositionen
+[Spielerpositionen]: docs/Spielerpositionen
+[Spielzüge]: docs/Spielzug
+[Torchancekarten]: docs/Torchancekarte
+[Trainingskarten]: docs/Trainingskarte
+[Transfermarkt]: docs/Transfermarkt
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
